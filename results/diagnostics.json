@@ -1,0 +1,44 @@
+{
+  "encounters": 40472,
+  "patients": 31727,
+  "group_size": {
+    "up": 10830,
+    "steady": 29642
+  },
+  "matched_pairs": 10702,
+  "matched_fraction_of_up": 0.9881809787626962,
+  "propensity_min_max": {
+    "up": [
+      0.023604269892914646,
+      0.9998350755257069
+    ],
+    "steady": [
+      0.01920206430548253,
+      0.9994401688302572
+    ]
+  },
+  "observed_overlap": [
+    0.023604269892914646,
+    0.9994401688302572
+  ],
+  "outside_observed_overlap_n": 116,
+  "extreme_propensity_n": 1204,
+  "clipped_propensity_n": 673,
+  "max_stabilized_weight": 24.413586347763044,
+  "p99_stabilized_weight": 1.8837801608786928,
+  "effective_sample_size": {
+    "up": 8676.54429041119,
+    "steady": 26909.259041226396
+  },
+  "max_abs_smd": {
+    "smd_before": 0.25098129035963446,
+    "smd_after_iptw": 0.08220297384178889,
+    "smd_after_matching": 0.026254776722439917
+  },
+  "covariates_over_smd_0_1": {
+    "smd_before": 9,
+    "smd_after_iptw": 0,
+    "smd_after_matching": 0
+  },
+  "ci_note": "Naive/IPTW/AIPW Wald intervals use patient cluster influence approximations. IPTW intervals omit nuisance model uncertainty; PSM inference is not reported."
+}

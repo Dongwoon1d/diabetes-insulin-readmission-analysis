@@ -1,0 +1,5 @@
+stage,encounters,patients
+Raw encounters,101766,71518
+Exclude death/hospice discharge codes,99343,69990
+Recorded age band starts at 20 or above,98493,69314
+Insulin Up or Steady,40472,31727
